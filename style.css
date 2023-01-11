@@ -1,189 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
 
 body {
-    margin: 0;
-    font-family: 'poppins', sans-serif;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
 }
 
 .head {
-    background-color: transparent;
-    display: flex;
-    color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-    flex-wrap: wrap;
-    height: 8vh;
-}
-
-.logo p {
-    color: #6070FF;
-    margin: 0;
-    flex: 0 1 60%;
-    font-size: 18px;
-    font-family: 'Roboto' Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-nav {
-    display: none;
-    flex: 0 1 50%;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0;
-    color: #344563;
-}
-
-nav a {
-    text-decoration: none;
-    color: #344563;
-}
-
-nav a:hover {
-    color: red;
-}
-
-.banner {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    background-image: url(./images/header-shapes\ mobile.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 90% 20%;
-    background-size: 100%;
-    margin: 0%;
-}
-
-article {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 20%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-article h1 {
-    font-size: 40px;
-    color: #172B4D;
-    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 800;
+  background-color: transparent;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+  height: 8vh;
 }
 
 article p {
-    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.logo p {
+  color: color-hex-case "#6070ff";
+  margin: 0;
+  flex: 0 1 60%;
+  font-family: 'Roboto' Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 article a {
-    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-    color: #7F8CFF;
-    cursor: crosshair;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #7f8Cff;
+  cursor: crosshair;
 }
 
-.social-links {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.social-links ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-}
-
-.social-links ul li {
-    margin-right: 3%;
+nav a {
+  text-decoration: none;
+  color: #344563;
 }
 
 .social-links a {
-    color: #505F79;
-    font-weight: 800;
-    font-size: 25px;
+  color: #505f79;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+nav {
+  display: none;
+  flex: 0 1 50%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  color: #344563;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.banner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(./images/header-shapes\ mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+  margin: 0%;
+}
+
+article {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+article h1 {
+  font-size: 40px;
+  color: #172b4d;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-links ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.social-links ul li {
+  margin-right: 3%;
 }
 
 @media screen and (min-width: 768px) {
-    .head {
-        padding: 0 5rem;
-        height: auto;
-    }
+  .head {
+    padding: 0 5rem;
+    height: auto;
+  }
 
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 
-    nav {
-        display: flex;
-        color: black;
-        justify-content: space-around;
-    }
+  nav {
+    display: flex;
+    color: black;
+    justify-content: space-around;
+  }
 
+  nav ul li {
+    margin-left: 20%;
+  }
 
-    nav ul li {
-        margin-left: 20%;
-    }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/Header\ bg.svg);
+    background-position: 0% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
 
-    .banner {
-        display: flex;
-        flex-direction: column;
-        background-image: url(./images/Header\ bg.svg);
-        background-position: 0% 0;
-        background-size: cover;
-        background-attachment: fixed;
-        height: 100vh;
+  article {
+    padding-top: 5%;
+    height: auto;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 5%;
+    margin-left: 90px;
+    flex-wrap: wrap;
+  }
 
-    }
+  article h1 {
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800px;
+    font-family: 'poppins' Verdana, Geneva, Tahoma, sans-serif;
+  }
 
-    article {
-        padding-top: 5%;
-        height: auto;
-        justify-content: center;
-        padding-left: 15%;
-        padding-right: 5%;
-        margin-left: 90px;
-        flex-wrap: wrap;
-    }
+  article p {
+    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: auto;
+    flex-wrap: wrap;
+  }
 
-    article h1 {
-        font-size: 48px;
-        align-items: center;
-        justify-content: center;
-        font-weight: 800px;
-        font-family: 'poppins' Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    article p {
-        font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        padding-left: auto;
-        flex-wrap: wrap;
-
-    }
-
-    .social-links {
-        padding-left: 18%;
-        margin-left: 90px;
-    }
-
+  .social-links {
+    padding-left: 18%;
+    margin-left: 90px;
+  }
 }
