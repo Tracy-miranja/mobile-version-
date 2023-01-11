@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: roboto, sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 .head {
@@ -185,5 +185,5 @@ article a {
         padding-left: 18%;
         margin-left: 90px;
     }
-    
+
 }
