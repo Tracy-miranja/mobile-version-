@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.head {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 8vh;
+}
+
+article p {
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+  padding-right: 10px;
+}
+
+article a {
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #7f8cff;
+  cursor: col-resize;
+  margin-top: 2%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #344563;
+}
+
+.logo a {
+  color: "#6070ff";
+  margin-top: 10;
+  text-decoration: none;
+  flex: 0 1 60%;
+  font-family: 'Roboto' Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.social-links {
+  left: 24px;
+}
+
+.social-links a {
+  color: #505f79;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.links {
+  display: none;
+  flex: 0 1 50%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  color: #344563;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.banner {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(./images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-position: 90% 20%;
+  margin: 0%;
+  background-size: 100%;
+  border-bottom-left-radius: 50px;
+}
+
+article {
+  padding-left: 8%;
+  padding-right: 2%;
+  padding-top: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+article h1 {
+  font-size: 40px;
+  color: #172b4d;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+  padding-right: 10px;
+}
+
+.social-links ul li {
+  display: flex;
+  margin-right: 3%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 50px;
+}
+
+.item1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: aqua;
+}
+
+.item1a {
+  width: 295px;
+  height: 220px;
+  background: url(./images/snapshoot.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.item1b {
+  display: flex;
+}
+
+.item2 {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    padding: 0 5rem;
+    height: auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    color: black;
+  }
+
+  nav ul li {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/Header\ bg.svg);
+    background-position: 0% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
+  article {
+    padding-top: 5%;
+    height: auto;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 90px;
+    flex-wrap: wrap;
+  }
+
+  article h1 {
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800px;
+    font-family: 'poppins' Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  article p {
+    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: auto;
+    flex-wrap: wrap;
+  }
+
+  .social-links {
+    padding-left: 2%;
+    margin-left: 90px;
+  }
+}
