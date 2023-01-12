@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 .head {
@@ -12,6 +13,7 @@ body {
   align-items: center;
   padding: 0 2rem;
   height: 8vh;
+  /* border-bottom-left-radius: 50px; */
 }
 
 article p {
@@ -88,10 +90,11 @@ nav a:hover {
   height: 100vh;
   flex-direction: column;
   background-image: url(./images/header-shapes\ mobile.png);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: 90% 20%;
   margin: 0%;
+  background-size: 100%;
+  border-bottom-left-radius: 50px;
 }
 
 article {
@@ -148,7 +151,7 @@ article h1 {
 .item1a {
   width: 295px;
   height: 220px;
-  background: url(./images/Snapshoot\ Portfolio\ \(1\) .png);
+  background: url(./images/snapshoot.png);
   border-radius: 8px;
   flex: none;
   order: 0;
