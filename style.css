@@ -49,6 +49,26 @@ article a {
   margin-top: 2%;
 }
 
+.about-me a {
+  color: #7f8cff;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.sub-lang a {
+  font-family: 'Poppins' Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
 nav a {
   text-decoration: none;
   color: #344563;
@@ -93,6 +113,10 @@ nav ul {
   align-items: center;
   padding: 0;
   color: #344563;
+}
+
+.skills a {
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -158,6 +182,12 @@ article h1 {
   margin: 0 5px 0 0;
   display: flex;
   justify-content: flex-start;
+}
+
+.sub-lang li {
+  margin-bottom: 5%;
+  background: #f7f7f9;
+  padding-right: 5%;
 }
 
 .social-links ul li {
@@ -366,16 +396,6 @@ article h1 {
   font-size: 16px;
 }
 
-.about-me a {
-  color: #7f8cff;
-  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-}
-
 .lnks {
   margin-left: 12px;
   box-sizing: border-box;
@@ -442,7 +462,7 @@ article h1 {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .sub-lang img {
@@ -453,26 +473,6 @@ article h1 {
   border: 1px solid #fff;
   align-items: center;
   margin-top: 10px;
-}
-
-.skills a {
-  text-decoration: none;
-}
-
-.sub-lang a {
-  font-family: 'Poppins' Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 5px;
-}
-
-.sub-lang li {
-  margin-bottom: 5%;
-  background: #f7f7f9;
-  padding-right: 5%;
 }
 
 .language ul li {
@@ -562,5 +562,4 @@ article h1 {
     padding-left: 2%;
     margin-left: 90px;
   }
-
 }
