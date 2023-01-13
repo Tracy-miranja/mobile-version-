@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -501,9 +501,12 @@ article h1 {
   display: flex;
   margin: 36px 0;
   flex-direction: row;
-  padding: 7px;
+  padding: 12px;
   margin-right: 2rem;
   border-radius: 7px;
+  gap: 12px;
+  align-items: center;
+  top: 72px;
 }
 
 .arrow {
