@@ -56,13 +56,18 @@ nav a {
 
 button a {
   text-decoration: none;
+  font-size: 17px;
+  color: #396df2;
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .about-me a {
   color: #7f8cff;
   font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
@@ -71,11 +76,12 @@ button a {
 .sub-lang a {
   font-family: 'Poppins' Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 16px;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 5px;
+  margin-top: 25px;
+  margin-left: 15px;
+  color: #253858;
 }
 
 .logo a {
@@ -179,11 +185,11 @@ article h1 {
 .tags li {
   color: #3b4eff;
   font: 500 12px;
-  padding: 0 1px 0 -21px;
+  padding: 0 2px 0 -21px;
   background: #ebebff;
   border-radius: 8px;
   text-decoration: none;
-  margin: 0 5px 0 0;
+  margin: 0 15px 0 0;
   display: flex;
   justify-content: flex-start;
 }
@@ -238,7 +244,6 @@ article h1 {
 
 .frame2 {
   display: flex;
-  position: relative;
 }
 
 .frame2 span {
@@ -254,6 +259,7 @@ article h1 {
   display: flex;
   list-style: none;
   margin-top: 0;
+  padding: 0;
 }
 
 .role ::before {
@@ -288,6 +294,7 @@ article h1 {
   height: 38px;
   left: 0;
   border: 1px solid #6070ff;
+  background-color: #fff;
   border-radius: 8px;
 }
 
@@ -401,9 +408,23 @@ article h1 {
 }
 
 .lnks {
-  margin-left: 12px;
   box-sizing: border-box;
   color: #505f79;
+  padding: 0;
+}
+
+.btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 134px;
+  height: 38px;
+  left: 0;
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .links i {
@@ -466,13 +487,14 @@ article h1 {
 }
 
 .sub-lang img {
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   left: 12px;
   background: url(images.jpg);
   border: 1px solid #fff;
   align-items: center;
   margin-top: 10px;
+  padding: 0;
 }
 
 .language ul li {
@@ -561,5 +583,49 @@ article h1 {
   .social-links {
     padding-left: 2%;
     margin-left: 90px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+  }
+
+  .item1 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .item2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item1a img {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
