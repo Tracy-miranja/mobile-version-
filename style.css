@@ -501,6 +501,9 @@ article h1 {
   display: flex;
   margin: 36px 0;
   flex-direction: row;
+  padding: 7px;
+  margin-right: 2rem;
+  border-radius: 7px;
 }
 
 .arrow {
