@@ -27,7 +27,7 @@ One attachment
 
 # 📖 MIRANJA TRACY <a name="about-project"></a>
 
-**MIRANJA TRACY hello world** is a webpage That i have created to test whether i grasp steps i learnt.
+**MIRANJA TRACY mobile-version portfolio** is a one webpage That i have created to showcase my work
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,7 +47,7 @@ One attachment
  
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [Live Demo Link](https://github.com/Tracy-miranja/Myfirst-repo)
+- [Live Demo Link](https://github.com/Tracy-miranja/mobile-version)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
  
 ```sh
   cd my-folder
-  git clone git@github.com:Tracy-miranja/Tracy-miranja/hello-microverse.git
+  git clone git@github.com:Tracy-miranja/mobile-version.git
 ```
  
 ### Install
@@ -84,7 +84,7 @@ Install this project with:
 ```
 ### Usage
  
-To run the project, open index.html in your web browser.
+To run the project, open index.html in your text editor,right-click and open with live server,it will be opened in your web browser.
  
 <!-- AUTHORS -->
  
