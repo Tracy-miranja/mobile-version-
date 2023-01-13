@@ -140,22 +140,22 @@ article h1 {
 
 .frame2 li {
   margin-left: 30px;
-  font-family: 'Poppins';
+  font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .tags li {
   color: #3b4eff;
   font: 500 12px;
-  padding: 0px 1px 0px -21px;
+  padding: 0 1px 0 -21px;
   background: #ebebff;
   border-radius: 8px;
   text-decoration: none;
-  margin: 0px 5px 0px 0;
+  margin: 0 5px 0 0;
   display: flex;
   justify-content: flex-start;
 }
@@ -208,7 +208,7 @@ article h1 {
 }
 
 .frame2 span {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins' Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -252,7 +252,7 @@ article h1 {
   gap: 10px;
   width: 124px;
   height: 38px;
-  left: 0px;
+  left: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -352,7 +352,7 @@ article h1 {
 
 .about-me h1 {
   color: #172b4d;
-  font-family: 'poppins' sans-serif;
+  font-family: 'poppins' Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin: 0;
@@ -367,7 +367,7 @@ article h1 {
 }
 
 .about-me a {
-  color: #7F8CFF;
+  color: #7f8cff;
   font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -412,14 +412,14 @@ article h1 {
 .lang {
   height: 24px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
   font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
-  color: #000000;
+  color: #000;
   padding: 0;
 }
 
@@ -431,7 +431,7 @@ article h1 {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .skl {
@@ -471,7 +471,7 @@ article h1 {
 
 .sub-lang li {
   margin-bottom: 5%;
-  background: #F7f7f9;
+  background: #f7f7f9;
   padding-right: 5%;
 }
 
@@ -497,7 +497,6 @@ article h1 {
 
 .line2 {
   margin-top: 25px;
-
 }
 
 @media screen and (min-width: 768px) {
