@@ -442,6 +442,8 @@ article h1 {
   background: #6070ff;
   border-top-left-radius: 100px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 779px;
   margin-top: 10%;
   background-image: url(./images/contact\ form\ shapes-mobile@2x.png);
@@ -451,6 +453,9 @@ article h1 {
 }
 
 .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 30px;
   margin-top: 10%;
 }
@@ -560,11 +565,42 @@ article h1 {
   margin-top: 25px;
 }
 
+.footer li{
+  list-style-type: none;
+}
+
+.footer li input{
+  border: 1px solid #cfd8dc;
+  height: 48px;
+  width: 327px;
+  margin-top:10px;
+  border-radius: 8px;
+}
+
+.footer li textarea {
+  border: 1px solid #cfd8dc;
+  height: 180px;
+  width: 327px;
+  margin-top:10px;
+  border-radius: 8px;
+}
+
+.footer li button {
+  border: 1px solid #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: "poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #6070ff;
+}
+
 @media screen and (min-width: 768px) {
   .head {
     padding: 0 5rem;
     height: auto;
   }
+  
 
   .menu {
     display: none;
@@ -732,3 +768,4 @@ article h1 {
   }
 
 }
+
