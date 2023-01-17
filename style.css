@@ -166,6 +166,10 @@ article h1 {
   margin: 0 10px 0 0;
 }
 
+.footer li {
+  list-style-type: none;
+}
+
 .social-links ul {
   list-style: none;
   display: flex;
@@ -463,19 +467,18 @@ article h1 {
 
 .footer-container p {
   align-items: center;
-  font-family: 'Poppins';
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   padding: 0%;
   margin-top: -20px;
-
 }
 
 .footer-container h1 {
-  font-family: 'Poppins';
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -483,7 +486,7 @@ article h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   padding: 0;
 }
 
@@ -574,10 +577,6 @@ form {
   margin-right: 9%;
 }
 
-.footer li {
-  list-style-type: none;
-}
-
 .footer li input {
   border: 1px solid #cfd8dc;
   height: 48px;
@@ -604,16 +603,11 @@ form {
   font-size: 17px;
   font-weight: 500;
   color: #6070ff;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .footer li button:hover {
   transform: scale(1.05);
-}
-
-input placeholder {
-  margin-top: 15px;
-  margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -621,7 +615,6 @@ input placeholder {
     padding: 0 5rem;
     height: auto;
   }
-
 
   .menu {
     display: none;
@@ -787,5 +780,4 @@ input placeholder {
     box-sizing: border-box;
     margin-left: 20px;
   }
-
 }
