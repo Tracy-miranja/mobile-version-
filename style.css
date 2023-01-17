@@ -463,7 +463,7 @@ article h1 {
   justify-content: center;
   margin-top: 10%;
   padding: 24px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .footer-container p {
@@ -575,26 +575,29 @@ article h1 {
 form {
   margin-top: -30px;
   display: flex;
-  margin-right: 15%;
-  padding: 24px;
+  margin-right: 11%;
+  padding: 20px;
+  align-items: center;
 }
 
 .footer li input {
   border: 1px solid #cfd8dc;
-  height: 48px;
-  width: 300px;
+  width: 290px;
   margin-top: 10px;
   border-radius: 8px;
-  /* padding: 24px; */
+  padding: 24px;
+}
+
+.footer textarea {
+  padding: 24px;
 }
 
 .footer li textarea {
   border: 1px solid #cfd8dc;
   height: 180px;
-  width: 300px;
+  width: 290px;
   margin-top: 10px;
   border-radius: 8px;
-  /* padding: 24px; */
 }
 
 .footer li button {
@@ -610,7 +613,7 @@ form {
 
 .footer li button:hover {
   transform: scale(1.05);
-  background: #2230D2;
+  background: #2230d2;
   color: #fff;
 }
 
@@ -800,7 +803,7 @@ form {
     display: flex;
     width: 134px;
     height: 10px;
-    background: #0D151E;
+    background: ##0d151e;
     border-radius: 10px;
   }
 }
