@@ -469,6 +469,8 @@ article h1 {
   text-align: center;
   color: #EBEBFF;
   padding: 0%;
+  margin-top: -20px;
+
 }
 
 .footer-container h1 {
@@ -564,7 +566,9 @@ article h1 {
 .line2 {
   margin-top: 25px;
 }
-
+.footer form{
+  margin-top: -30px;
+}
 .footer li{
   list-style-type: none;
 }
@@ -593,6 +597,11 @@ article h1 {
   font-size: 17px;
   font-weight: 500;
   color: #6070ff;
+  transition: all .2s ease;
+}
+
+.footer li button:hover{
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 768px) {
