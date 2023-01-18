@@ -656,6 +656,9 @@ form {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 130px;
   }
 
   article {
@@ -687,8 +690,9 @@ form {
   }
 
   .social-links {
-    padding-left: 7%;
     margin-left: 90px;
+    padding-right: 100px;
+    padding-left: 10px;
   }
 
   .grid-container {
@@ -817,14 +821,6 @@ form {
     padding: 0;
   }
 
-  .line {
-    display: flex;
-    width: 134px;
-    height: 10px;
-    background: #0d151e;
-    border-radius: 10px;
-  }
-
   .item1b {
     display: flex;
     flex-direction: column;
@@ -843,12 +839,12 @@ form {
   }
 
   .item1b ul li {
-    font-family: 'Poppins';
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #6B778C;
+    color: #6b778c;
     margin-top: -5px;
   }
 
@@ -868,13 +864,13 @@ form {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #6070FF;
+    color: #ebebff;
     padding: 4px 12px;
     align-items: center;
     text-align: center;
     display: flex;
     flex-direction: row;
-    background: #EBEBFF;
+    background: #ebebff;
   }
 
   .about-me h1 {
@@ -885,11 +881,11 @@ form {
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #091E42;
+    color: #091e42;
   }
 
   .about-me p {
-    font-family: 'Poppins';
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -939,6 +935,7 @@ form {
 
   .footer li textarea {
     margin-top: 24px;
+    border-radius: 2px;
   }
 
   .footer li button {
@@ -948,16 +945,5 @@ form {
 
   .line {
     display: none;
-  }
-
-  .banner {
-    padding-left: 220px;
-    padding-right: 220px;
-    padding-top: 130px;
-  }
-
-  .social-links {
-    padding-right: 100px;
-    padding-left: 10px;
   }
 }
