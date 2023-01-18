@@ -103,7 +103,7 @@ To run the project, open index.html in your text editor,right-click and open wit
  
 ## 🔭 Future Features <a name="future-features"></a>
  
- 
+- [ ] **Web page header**
 - [ ] **Web page body**
 - [ ] **Web page footer**
 - [ ] **Desktop design**
@@ -124,7 +124,7 @@ Feel free to check the [issues page](../../issues/).
  
 ## ⭐️ Show your support <a name="support"></a>
  
-If the project was great as your view, don't hesitate to share.
+If the project was great as your view, don't hesitate to share and give it a star.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -132,7 +132,7 @@ If the project was great as your view, don't hesitate to share.
  
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
  
-I would like to thank to all my Mricronauts partners...
+I would like to thank to all my Mricronauts partners and microverse for giving me this template in figma
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -140,7 +140,7 @@ I would like to thank to all my Mricronauts partners...
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-license-1/LICENCE licensed.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md

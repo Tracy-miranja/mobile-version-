@@ -272,8 +272,9 @@ article h1 {
   height: 12px;
   border-radius: 50%;
   position: absolute;
-  margin-left: -25px;
+  margin-left: -22px;
   background-color: #c1c7d0;
+  margin-top: 5px;
 }
 
 .item1b p {
@@ -655,6 +656,9 @@ form {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 130px;
   }
 
   article {
@@ -686,8 +690,9 @@ form {
   }
 
   .social-links {
-    padding-left: 7%;
     margin-left: 90px;
+    padding-right: 100px;
+    padding-left: 10px;
   }
 
   .grid-container {
@@ -695,12 +700,15 @@ form {
     grid-template-columns: 94%;
     grid-template-rows: auto;
     justify-content: center;
+    padding: 122px;
+    row-gap: 122px;
+    flex-wrap: wrap;
   }
 
   .item1 {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 70px;
+    column-gap: 20px;
     align-items: center;
     justify-content: flex-start;
     padding: 15px;
@@ -711,7 +719,7 @@ form {
   .item2 {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 50px;
+    column-gap: 20px;
     align-items: center;
     justify-content: center;
   }
@@ -719,7 +727,7 @@ form {
   .item3 {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 50px;
+    column-gap: 20px;
     align-items: center;
     justify-content: center;
   }
@@ -727,7 +735,7 @@ form {
   .item4 {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 50px;
+    column-gap: 20px;
     align-items: center;
     justify-content: center;
   }
@@ -800,20 +808,165 @@ form {
 
   .grid-container2 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
+    padding: 122px;
+    justify-content: center;
+    align-items: center;
   }
 
   .sub-lang {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .sub-lang li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5%;
+  }
+
+  button:hover {
+    background: #2230d2;
+    color: white;
+  }
+
+  .item1b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .item1b h1 {
+    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    color: #091e42;
+  }
+
+  .item1b ul li {
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+    margin-top: -5px;
+  }
+
+  .item1b p {
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .tags ul li {
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    padding: 4px 12px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background: #ebebff;
+  }
+
+  .about-me h1 {
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .about-me p {
+    font-family: 'Poppins' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .skills {
+    margin-top: 85px;
+  }
+
+  .arrow {
+    align-items: flex-end;
+    margin-left: 490px;
+  }
+
+  .arrow2 {
+    align-items: flex-end;
+    margin-left: 565px;
+  }
+
+  .footer {
+    padding-left: 320px;
+    padding-right: 319px;
+    padding-bottom: 127px;
+    padding-top: 142px;
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
+
+  .footer-container h1 {
+    margin-left: -35px;
+  }
+
+  .footer-container {
+    padding-left: 103px;
+    padding-right: 103px;
+  }
+
+  .footer form {
+    padding-left: 177px;
+    padding-right: 177px;
+  }
+
+  .footer li input {
+    border-radius: 2px;
+    margin-top: 24px;
+    padding: 15px;
+    width: 447px;
+    margin-left: 29px;
+  }
+
+  .footer li textarea {
+    margin-top: 24px;
+    border-radius: 2px;
+    width: 430px;
+    margin-left: 29px;
+  }
+
+  .footer li button {
+    margin-left: 195px;
+    margin-top: 5%;
   }
 
   .line {
-    display: flex;
-    width: 134px;
-    height: 10px;
-    background: ##0d151e;
-    border-radius: 10px;
+    display: none;
   }
 }
