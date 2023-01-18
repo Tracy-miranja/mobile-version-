@@ -821,6 +821,20 @@ form {
     padding: 0;
   }
 
+  .sub-lang li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5%;
+  }
+
+  button:hover {
+    background: #2230d2;
+    color: white;
+  }
+
   .item1b {
     display: flex;
     flex-direction: column;
@@ -918,9 +932,13 @@ form {
     background-size: 90%;
   }
 
+  .footer-container h1 {
+    margin-left: -35px;
+  }
+
   .footer-container {
-    padding-left: 166px;
-    padding-right: 166px;
+    padding-left: 103px;
+    padding-right: 103px;
   }
 
   .footer form {
@@ -931,15 +949,20 @@ form {
   .footer li input {
     border-radius: 2px;
     margin-top: 24px;
+    padding: 15px;
+    width: 447px;
+    margin-left: 29px;
   }
 
   .footer li textarea {
     margin-top: 24px;
     border-radius: 2px;
+    width: 430px;
+    margin-left: 29px;
   }
 
   .footer li button {
-    margin-left: 95px;
+    margin-left: 195px;
     margin-top: 5%;
   }
 
