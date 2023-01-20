@@ -637,6 +637,14 @@ form {
   transform: rotate(180deg);
 }
 
+.animation {
+  transition: all 1s ease;
+}
+
+.animation:hover {
+  transform: scale(2);
+}
+
 @media screen and (min-width: 768px) {
   .head {
     padding: 0 5rem;
