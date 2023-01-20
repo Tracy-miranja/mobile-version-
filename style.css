@@ -667,7 +667,7 @@ form {
 
   .log:hover {
     background-color: transparent;
-    transform: rotate(360deg);
+    transform: rotate3d(180deg);
   }
 
   .banner {
