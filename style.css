@@ -616,7 +616,7 @@ form {
 .footer li button:active {
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-  background: ##2230d2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
@@ -626,6 +626,23 @@ form {
   color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
+}
+
+.log {
+  transition: all 1s ease-in-out;
+}
+
+.log:hover {
+  background-color: transparent;
+  transform: rotate(180deg);
+}
+
+.animation {
+  transition: all 1s ease;
+}
+
+.animation:hover {
+  transform: scale(2);
 }
 
 @media screen and (min-width: 768px) {
@@ -646,6 +663,19 @@ form {
   nav ul li {
     margin-left: 10%;
     margin-right: 5%;
+  }
+
+  .links:hover {
+    font-size: large;
+  }
+
+  .log {
+    transition: all 1s ease-in-out;
+  }
+
+  .log:hover {
+    background-color: transparent;
+    transform: rotate3d(180deg);
   }
 
   .banner {
