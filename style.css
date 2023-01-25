@@ -73,7 +73,29 @@ button a {
   text-decoration: none;
 }
 
-.sub-lang a {
+.name {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: -30px;
+  background: #F7F7F9;
+}
+
+.lang-name {
+  color: #253858;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .an .sub-lang a {
   font-family: 'Poppins' Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -82,7 +104,7 @@ button a {
   margin-top: 25px;
   margin-left: 15px;
   color: #253858;
-}
+} */
 
 .logo a {
   color: "#6070ff";
@@ -198,11 +220,11 @@ article h1 {
   justify-content: flex-start;
 }
 
-.sub-lang li {
+/* .sub-lang li {
   margin-bottom: 5%;
   background: #f7f7f9;
   padding-right: 5%;
-}
+} */
 
 .social-links ul li {
   display: flex;
@@ -465,11 +487,12 @@ article h1 {
   margin-top: 10%;
   padding: 24px;
   margin-right: 10px;
+  font-family: 'poppins', sans-serif;
 }
 
 .footer-container p {
   align-items: center;
-  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -500,7 +523,7 @@ article h1 {
   height: 24px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -530,29 +553,6 @@ article h1 {
   display: flex;
   align-items: center;
   color: #000;
-}
-
-.sub-lang img {
-  width: 48px;
-  height: 48px;
-  left: 12px;
-  background: url(images.jpg);
-  border: 1px solid #fff;
-  align-items: center;
-  margin-top: 10px;
-  padding: 0;
-}
-
-.language ul li {
-  display: flex;
-  margin: 36px 0;
-  flex-direction: row;
-  padding: 12px;
-  margin-right: 2rem;
-  border-radius: 7px;
-  gap: 12px;
-  align-items: center;
-  top: 72px;
 }
 
 .arrow {
@@ -587,10 +587,11 @@ form {
   margin-top: 10px;
   border-radius: 8px;
   padding: 24px;
+  font-family: 'poppins', sans-serif;
 }
 
 .footer textarea {
-  padding: 24px;
+  padding: 22px;
 }
 
 .footer li textarea {
@@ -599,6 +600,7 @@ form {
   width: 290px;
   margin-top: 10px;
   border-radius: 8px;
+  font-family: 'poppins', sans-serif;
 }
 
 .footer li button {
@@ -639,6 +641,7 @@ form {
 
 .animation {
   transition: all 1s ease;
+  margin-left: 10px;
 }
 
 .animation:hover {
@@ -682,13 +685,13 @@ form {
     display: flex;
     flex-direction: column;
     background-image: url(./images/Header\ bg.svg);
-    background-position: 0% 0;
-    background-size: cover;
-    background-attachment: fixed;
+    background-position: 0 0;
+    background-size: 100%;
+    background-position-y: 50%;
     height: 100vh;
     padding-left: 220px;
     padding-right: 220px;
-    padding-top: 130px;
+    padding-top: 230px;
   }
 
   article {
@@ -844,11 +847,15 @@ form {
     align-items: center;
   }
 
-  .sub-lang {
+  /* .sub-lang {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0;
+  } */
+
+  /* .sub-lang li {
+    width: 122px;
+    height: 120px;
   }
 
   .sub-lang li a {
@@ -858,11 +865,36 @@ form {
     justify-content: center;
     margin: 5px;
     padding: 5%;
+  } 
+  */
+  .sub-lang {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    gap: 40px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 122px;
+    background: #F7F7F9;
+  }
+
+  .lang-name {
+    color: #253858;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 12px 15px 12px 3px;
   }
 
   button:hover {
     background: #2230d2;
-    color: white;
+    color: #fff;
   }
 
   .item1b {
