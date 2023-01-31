@@ -120,16 +120,37 @@ button a {
 
 .links {
   display: none;
+  width: 100%;
   flex: 0 1 50%;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1px;
+  gap: 20px;
+  flex-direction: row-reverse;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 10px;
   color: #344563;
+  text-align: center;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #344563;
+  font-size: 21px;
+  cursor: pointer;
+  display: block;
 }
 
 .skills a {
@@ -631,6 +652,16 @@ form {
   transform: scale(2);
 }
 
+.links.show {
+  background-color: white;
+  width: 120px;
+  text-align: center;
+  display: flex;
+  color: #fff;
+  padding-top: 50%;
+  z-index: 1;
+}
+
 @media screen and (min-width: 768px) {
   .head {
     padding: 0 5rem;
@@ -644,11 +675,17 @@ form {
   .links {
     display: flex;
     color: black;
+    flex-direction: initial;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   nav ul li {
     margin-left: 10%;
     margin-right: 5%;
+
   }
 
   .links:hover {
