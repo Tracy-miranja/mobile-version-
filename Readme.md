@@ -145,6 +145,4 @@ This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md
 Displaying README.md.
-<div class="menu" id="enu">
-          <img src="./images/Union.png" class="log" alt="menu-bar" />
-        </div>
+
