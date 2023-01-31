@@ -4,3 +4,4 @@ const navUl = document.querySelector("#links");
 hamburger.addEventListener("click", () => {
   navUl.classList.toggle("show");
 });
+
