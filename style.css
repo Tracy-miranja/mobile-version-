@@ -50,8 +50,17 @@ article a {
 }
 
 nav a {
+  /* text-decoration: none;
+  color: #344563; */
   text-decoration: none;
-  color: #344563;
+color: #ebebff;
+font-family: "poppins", sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0;
+text-align: left;
+
 }
 
 button a {
@@ -152,6 +161,38 @@ nav ul {
   cursor: pointer;
   display: block;
 }
+
+/* 
+.links {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #6070ff;
+  backdrop-filter: blur(3px);
+  gap: 8px;
+  font-size: larger;
+  list-style-type: none;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 99;
+}
+
+#close_menu {
+  height: 12px;
+  width: 12px;
+  border-radius: 0;
+  position: absolute;
+  left: 90%;
+  right: 25%;
+  top: 8%;
+  bottom: 25%;
+  color: #fff;
+} */
 
 .skills a {
   text-decoration: none;
@@ -653,13 +694,30 @@ form {
 }
 
 .links.show {
-  background-color: white;
+  /* background-color: white;
   width: 120px;
   text-align: center;
   display: flex;
   color: #fff;
   padding-top: 50%;
-  z-index: 1;
+  z-index: 1; */
+
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: #6070ff;
+  backdrop-filter: blur(3px);
+  gap: 8px;
+  font-size: larger;
+  list-style-type: none;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 99;
 }
 
 @media screen and (min-width: 768px) {
