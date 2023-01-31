@@ -15,23 +15,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="overlay"></div>
     <header class="head header">
       <div class="logo">
         <h2 class="log"><a class="log" href="#">TRACY </a></h2>
       </div>
-      <nav>
-        <div class="menu">
-          <img src="./images/Union.png" class="log" alt="menu-bar" />
+        <nav class="navbar">
+          <div class="hamburger_1">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-        <ul class="links">
-          <li><a href="#">Portoflio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li>
-            <a class="fa-regular fa-envelope" style="font-size: 30px"></a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="nav__menu">
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </header>
+      </header>
+
     </header>
     <section class="banner">
       <article>
@@ -64,7 +72,7 @@
         </ul>
       </div>
     </section>
-    <section class="grid-container">
+    <section class="grid-container" id="portfolio">
       <div class="item1">
         <div class="item1a">
           <img src="./images/snapshoot.png" alt="snap" />
@@ -170,7 +178,7 @@
         </div>
       </div>
     </section>
-    <section class="grid-container2">
+    <section class="grid-container2" id="about">
       <div class="about-me">
         <h1>
           About<br />
@@ -253,7 +261,7 @@
         </ul>
       </div>
     </section>
-    <section class="footer ">
+    <section class="footer" id="contact">
       <div class="footer-container">
         <h1>Contact me</h1>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -283,6 +291,7 @@
       </form>
       <div class="line"><hr style="height: 5px; border-radius: 8px; background: #0D151E;width: 134px;"></div>
     </section>
+    <script src="menu.js"></script>
   </body>
 </html>
 

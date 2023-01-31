@@ -7,14 +7,37 @@ body {
   background-color: #e5e5e5;
 }
 
-.header {
+.bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #396df2;
+}
+
+.hamburger_1.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger_1.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger_1.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.navbar {
+  display: flex;
+}
+
+.blur {
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
-  border-bottom: #e5e5e5;
-  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  z-index: 0;
+  width: 100vw;
+  height: 85vh;
+  backdrop-filter: blur(7px);
 }
 
 .head {
@@ -26,32 +49,31 @@ body {
   height: 8vh;
 }
 
-article p {
-  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin: 0;
-  padding-right: 10px;
+.nav__menu {
+  top: 60px;
+  gap: 0;
+  position: fixed;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  mix-blend-mode: multiply;
+  filter: blur (0);
+  background: #6070ff;
+  opacity: 0.75;
 }
 
-article a {
-  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-decoration: none;
-  color: #7f8cff;
-  cursor: col-resize;
-  margin-top: 2%;
-}
-
-nav a {
-  text-decoration: none;
-  color: #344563;
+.nav__item {
+  display: flex;
+  margin: 19px 24px;
+  color: #fff;
+  font-weight: 800;
+  margin-right: 50px;
 }
 
 button a {
@@ -61,6 +83,36 @@ button a {
   font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
+}
+
+.nav__item a {
+  color: #fff;
+  font-size: 32px;
+}
+
+.nav__menu.active {
+  left: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  border-bottom: #e5e5e5;
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+}
+
+article p {
+  font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+  padding-right: 10px;
 }
 
 .about-me a {
@@ -120,16 +172,37 @@ button a {
 
 .links {
   display: none;
+  width: 100%;
   flex: 0 1 50%;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1px;
+  gap: 20px;
+  flex-direction: row-reverse;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 10px;
   color: #344563;
+  text-align: center;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #344563;
+  font-size: 21px;
+  cursor: pointer;
+  display: block;
 }
 
 .skills a {
@@ -631,10 +704,54 @@ form {
   transform: scale(2);
 }
 
+.nav-mobile {
+  display: flex;
+  position: fixed;
+}
+
 @media screen and (min-width: 768px) {
+  .nav__menu {
+    left: 0;
+    top: -15px;
+    flex-direction: row;
+    background: none;
+    justify-content: flex-end;
+    border-bottom: none;
+  }
+
+  article a {
+    font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #7f8cff;
+    cursor: col-resize;
+    margin-top: 2%;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .nav__item a {
+    color: #344563;
+    font-size: 16px;
+  }
+
   .head {
     padding: 0 5rem;
     height: auto;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .hamburger_1 {
+    display: none;
   }
 
   .menu {
@@ -644,6 +761,11 @@ form {
   .links {
     display: flex;
     color: black;
+    flex-direction: initial;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   nav ul li {
