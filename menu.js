@@ -7,9 +7,8 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navUl.classList.toggle("active");
   hd.classList.add("head");
-  backGround.classList.add("blur");
 });
 navUl.addEventListener("click", () => {
   navUl.classList.remove("active");
-  backGround.classList.remove("blur");
+  // backGround.classList.remove("blur");
 });

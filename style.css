@@ -32,13 +32,13 @@ body {
   display: flex;
 }
 
-.blur {
+/* .blur {
   position: fixed;
   z-index: 0;
   width: 100vw;
   height: 85vh;
   backdrop-filter: blur(7px);
-}
+} */
 
 .head {
   background-color: #fff;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav__menu {
-  top: 60px;
+  top: 35px;
   gap: 0;
   position: fixed;
   left: -110%;
@@ -62,10 +62,8 @@ body {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  mix-blend-mode: multiply;
-  filter: blur (0);
-  background: #6070ff;
-  opacity: 0.75;
+  background-color: rgba(96, 112, 255, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 .nav__item {
@@ -717,6 +715,7 @@ form {
     background: none;
     justify-content: flex-end;
     border-bottom: none;
+    backdrop-filter: none;
   }
 
   article a {
