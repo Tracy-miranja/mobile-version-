@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
     <div class="overlay"></div>
@@ -95,7 +96,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button class="myButton" data-index="0"><a href="">See Project</a></button>
           </div>
         </div>
       </div>
@@ -121,7 +122,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button class="myButton" data-index="0"><a href="">See Project</a></button>
           </div>
         </div>
       </div>
@@ -147,7 +148,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button class="myButton" data-index="0"><a href="">See Project</a></button>
           </div>
         </div>
       </div>
@@ -173,7 +174,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button class="myButton" data-index="0">See Project</button>
           </div>
         </div>
       </div>
@@ -291,7 +292,15 @@
       </form>
       <div class="line"><hr style="height: 5px; border-radius: 8px; background: #0D151E;width: 134px;"></div>
     </section>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modalContent"></div>
+  </div>
+</div>
     <script src="menu.js"></script>
+    <script src="popup.js"></script>
   </body>
 </html>
 
