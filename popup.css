@@ -1,47 +1,190 @@
 /* The Modal (background) */
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
 }
 
-/* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: 80%;
 }
 
-/* The Close Button */
+.modal-content h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.lnkss h4 {
+  margin-top: 15px;
+}
+
+.lnkss {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  height: auto;
+  margin-top: -35px;
+}
+
+.modal-content ul li {
+  list-style: none;
+  display: inline;
+  padding: 14px;
+  border-color: #aaa;
+}
+
+.hey {
+  width: 100%;
+}
+
+.lnkks {
+  margin-left: -9%;
+  padding-bottom: 3%;
+}
+
+.lnksi {
+  background-color: #ebebff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 15%;
+}
+
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-content {
+    background: #fff;
+    border: 1px solid #ebecf0;
+    border-radius: 16px;
+  }
+
+  .image img {
+    width: 95%;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  .lis {
+    width: 30%;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .lis ul {
+    width: 100%;
+  }
+
+  .lis li {
+    display: flex;
+    flex-direction: row;
+    background: #ebebff;
+    border-radius: 8px;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
+  .modal-content ul li {
+    padding: 4px 12px;
+  }
+
+  .content p {
+    width: 55%;
+  }
+
+  .see {
+    box-sizing: border-box;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .frst {
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+  }
+
+  .frst h4 {
+    margin-top: 18px;
+  }
+
+  .hey {
+    display: none;
+  }
+
+  .modal-content p {
+    display: none;
+  }
+
+  .modal-content h2 {
+    display: none;
+  }
+
+  .check,
+  .lnkks {
+    display: none;
+  }
+
+  .lnkss {
+    display: none;
+  }
 }
