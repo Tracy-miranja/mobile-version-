@@ -36,8 +36,9 @@ body {
   position: fixed;
   z-index: 0;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   backdrop-filter: blur(7px);
+  background: hsla(249, 86%, 27%, 0.74);
 }
 
 .head {
@@ -62,8 +63,8 @@ body {
   align-content: flex-start;
   align-items: flex-start;
   mix-blend-mode: multiply;
-  filter: blur (0);
-  background: #6070ff;
+  /* background: #6070ff; */
+  backdrop-filter: blur(10px);
   opacity: 0.75;
 }
 
