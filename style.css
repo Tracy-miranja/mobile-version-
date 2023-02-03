@@ -64,7 +64,7 @@ body {
   align-items: flex-start;
   mix-blend-mode: multiply;
   /* background: #6070ff; */
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   opacity: 0.75;
 }
 

@@ -114,6 +114,7 @@
   letter-spacing: 0.03em;
   color: #6070ff;
   padding-right: 20px;
+  flex-wrap: wrap;
 }
 
 .content p {
