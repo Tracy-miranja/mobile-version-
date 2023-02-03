@@ -20,7 +20,6 @@
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   width: 80%;
-  /* overflow: scroll; */
 }
 
 .modal-content h2 {
@@ -42,6 +41,23 @@
   flex-direction: row;
   height: auto;
   margin-top: -35px;
+}
+
+.lis li {
+  display: flex;
+  flex-direction: row;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-top: -5%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding-right: 20px;
+  flex-wrap: wrap;
 }
 
 .modal-content ul li {
@@ -102,23 +118,6 @@
   padding-left: 0;
 }
 
-.lis li {
-  display: flex;
-  flex-direction: row;
-  background: #ebebff;
-  border-radius: 8px;
-  margin-top: -5%;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  padding-right: 20px;
-  flex-wrap: wrap;
-}
-
 .content p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -132,14 +131,10 @@
   display: flex;
   gap: 10px;
   align-items: center;
-
 }
 
 .see {
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -147,12 +142,9 @@
   height: 48px;
   left: 9px;
   bottom: 4px;
-
-  /* Primary/B400 */
-
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -192,11 +184,10 @@
 .frst {
   display: flex;
   flex-direction: row;
-
 }
 
 .frst h5 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -207,11 +198,11 @@
 
 .role {
   margin-top: -10px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 @media screen and (min-width: 768px) {
@@ -302,7 +293,6 @@
 
   .modal-image {
     width: 100%;
-
   }
 
   .modal-image img {

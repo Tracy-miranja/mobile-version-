@@ -63,9 +63,7 @@ body {
   align-content: flex-start;
   align-items: flex-start;
   mix-blend-mode: multiply;
-  /* background: #6070ff; */
-  /* backdrop-filter: blur(10px); */
-  opacity: 0.75;
+  background: #6070ff;
 }
 
 .nav__item {
