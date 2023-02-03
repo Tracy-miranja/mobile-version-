@@ -117,7 +117,7 @@ buttons.forEach((button, index) => {
     roleList.appendChild(roleItem2);
 
     const image = document.createElement("div");
-    image.setAttribute("class", "modal-image");
+    image.setAttribute("class", "image");
     modalContent.appendChild(image);
 
     const img = document.createElement("img");

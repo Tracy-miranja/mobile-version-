@@ -97,6 +97,7 @@
 }
 
 .lis ul {
+  padding-right: 5%;
   padding-left: 0;
 }
 
@@ -105,7 +106,7 @@
   flex-direction: row;
   background: #ebebff;
   border-radius: 8px;
-  /* margin-top: 5%; */
+  margin-top: -5%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -183,6 +184,35 @@
   margin-bottom: 10px;
 }
 
+.image img {
+  width: 100%;
+}
+
+.frst {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.frst h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  margin-top: -5px;
+}
+
+.role {
+  margin-top: -10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7A869A;
+}
+
 @media screen and (min-width: 768px) {
   .modal-content {
     background: #fff;
@@ -214,14 +244,13 @@
   }
 
   .content p {
-    width: 778px;
-    height: 382px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+    padding-right: 40px;
   }
 
   .modal-content ul li {
@@ -272,10 +301,14 @@
 
   .modal-image {
     width: 100%;
-    text-align: center;
+
   }
 
   .modal-image img {
+    width: 100%;
+  }
+
+  .image img {
     width: 100%;
   }
 }
