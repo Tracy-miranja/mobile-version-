@@ -13,6 +13,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
   <body>
     <div class="overlay"></div>
@@ -95,7 +97,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button id="button1" data-index="0">See Project</button>
           </div>
         </div>
       </div>
@@ -121,7 +123,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button id="button2" data-index="0">See Project</button>
           </div>
         </div>
       </div>
@@ -147,7 +149,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button id="button3" data-index="0">See Project</button>
           </div>
         </div>
       </div>
@@ -173,7 +175,7 @@
               <li>css</li>
               <li>javaScript</li>
             </ul>
-            <button><a href="">See Project</a></button>
+            <button id="button4" data-index="0">See Project</button>
           </div>
         </div>
       </div>
@@ -267,7 +269,7 @@
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
        
       </div>
-      <form action="https://formspree.io/f/mlekdbdj" method="post">
+      <form action="https://formspree.io/thanks?language=en" method="post">
         <ul>
           <li>
             <label for="name"></label>
@@ -283,15 +285,25 @@
             <label for="msg"></label>
             <textarea name="user_message" id="msg" placeholder="Write your message here" maxlength="500" required></textarea>
           </li>
-
+          <span id="response"></span>
           <li>
-            <button type="submit">Get in Touch</button>
+            <button id="submit" type="submit">Get in Touch</button>
           </li>
         </ul>
       </form>
       <div class="line"><hr style="height: 5px; border-radius: 8px; background: #0D151E;width: 134px;"></div>
     </section>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="modalContent"></div>
+  </div>
+</div>
     <script src="menu.js"></script>
+    <script src="popup.js"></script>
+    <script src="validate.js"></script>
+    <script src="preservedata.js"></script>
   </body>
 </html>
 

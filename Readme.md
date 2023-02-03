@@ -145,4 +145,25 @@ This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md
 Displaying README.md.
+/*
+const modalData = [
+  {
+    title: "This a sample H1 tag",
+    image: "https://via.placeholder.com/150",
+    paragraph: "This is paragraph 1.",
+    info: "This is some page info that's inside a DIV element",
+    btn: "Shop now!"
+  },
+  {
+    title: "Title 2",
+    image: "https://via.placeholder.com/150",
+    paragraph: "This is paragraph 2.",
+  },
+  {
+    title: "Title 3",
+    image: "https://via.placeholder.com/150",
+    paragraph: "This is paragraph 3.",
+  },
+];
 
+const buttons = document.query
