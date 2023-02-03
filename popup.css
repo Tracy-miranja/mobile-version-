@@ -49,6 +49,7 @@
   display: inline;
   padding: 14px;
   border-color: #aaa;
+  margin-left: 5px;
 }
 
 .hey {
@@ -283,7 +284,7 @@
   .frst {
     display: flex;
     flex-direction: row;
-    margin-top: -40px;
+    margin-top: 10px;
   }
 
   .contentCont {
