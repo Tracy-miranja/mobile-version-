@@ -2,13 +2,14 @@ const modalData = [
   {
     title: 'Tonic',
     role: {
-      name: 'Back End Developer',
+      title: 'Canopy',
+      name: 'Back End Dev',
       year: '2015',
     },
     image: './images/Snapshoot Portfolio (2).png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    tech: ['HTML', 'CSS', 'Javascript', 'github', 'ruby', 'Bootstraps'],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://example.com/',
       text: 'See Live',
@@ -21,13 +22,14 @@ const modalData = [
   {
     title: 'Tonic',
     role: {
-      name: 'Back End Developer',
+      title: 'Canopy',
+      name: 'Back End Dev',
       year: '2015',
     },
     image: './images/snap3.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    tech: ['HTML', 'CSS', 'Javascript', 'github', 'ruby', 'Bootstraps'],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://example.com/',
       text: 'See Live',
@@ -40,13 +42,14 @@ const modalData = [
   {
     title: 'Tonic',
     role: {
-      name: 'Back End Developer',
+      title: 'Canopy',
+      name: 'Back End Dev',
       year: '2015',
     },
     image: './images/Snapshoot Portfolio (2).png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    tech: ['HTML', 'CSS', 'Javascript', 'github', 'ruby', 'Bootstraps'],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://example.com/',
       text: 'See Live',
@@ -59,13 +62,14 @@ const modalData = [
   {
     title: 'Tonic',
     role: {
-      name: 'CANOPY',
+      title: 'Canopy',
+      name: 'Back End Dev',
       year: '2015',
     },
     image: './images/snap3.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    tech: ['HTML', 'CSS', 'Javascript', 'github', 'ruby', 'Bootstraps'],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://example.com/',
       text: 'See Live',
@@ -101,7 +105,7 @@ buttons.forEach((button, index) => {
     modalContent.appendChild(frst);
 
     const roleTitle = document.createElement('h5');
-    roleTitle.textContent = modalData[index].role.name;
+    roleTitle.textContent = modalData[index].role.title;
     frst.appendChild(roleTitle);
 
     const roleList = document.createElement('ul');
@@ -166,7 +170,7 @@ buttons.forEach((button, index) => {
 
     const link = document.createElement('a');
     link.href = modalData[index].button.link;
-    link.innerHTML = `${modalData[index].button.text} <img src="./images/icon.png" class="icon">`;
+    link.innerHTML = `${modalData[index].button.text} <img src="./images/Icon.png" class="icon">`;
     button.appendChild(link);
 
     const button1 = document.createElement('button');

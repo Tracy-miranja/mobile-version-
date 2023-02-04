@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 function storeData(data) {
   localStorage.setItem('storedData', JSON.stringify(data));
 }
