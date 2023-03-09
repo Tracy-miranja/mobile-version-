@@ -852,6 +852,14 @@ form {
     padding-bottom: 10px;
   }
 
+  .item1a img {
+    width: 100%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 70px;
+  }
+
   .item2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -876,31 +884,37 @@ form {
     justify-content: center;
   }
 
-  .item1a img {
-    display: none;
-  }
-
   .item1a {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-    background: url(./images/Snapshoot\ Portfolio.png);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 100%;
     border-radius: 8px;
     box-sizing: border-box;
     margin-left: 20px;
   }
 
+  .item1a img {
+    width: 100%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 70px;
+  }
+  
   .item2a img {
-    display: none;
+    width: 100%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 70px;
   }
 
   .item2a {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-    background: url(./images/snap3.png);
     background-repeat: no-repeat;
     background-size: 90%;
     border-radius: 8px;
@@ -986,6 +1000,7 @@ form {
     align-items: flex-start;
     padding: 10px;
     flex-wrap: wrap;
+    margin-top: -20px;
   }
 
   .item1b h1 {

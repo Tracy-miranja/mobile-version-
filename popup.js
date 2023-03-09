@@ -6,16 +6,16 @@ const modalData = [
       name: 'Back End Dev',
       year: '2015',
     },
-    image: './images/Snapshoot Portfolio (2).png',
+    image: './images/awesomebook.jpg',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+      "Awesome-book is a minimalist website website that allows users to add/remove books from a list, where I Used ES6 modules to write modular JavaScript and npm as software packages system.",
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
-      link: 'https://example.com/',
+      link: 'https://tracy-miranja.github.io/AWESOMEBOOK/',
       text: 'See Live',
     },
     button1: {
-      link: 'https://example.com/',
+      link: 'https://github.com/Tracy-miranja/AWESOMEBOOK',
       text: 'See Source',
     },
   },
@@ -26,16 +26,16 @@ const modalData = [
       name: 'Back End Dev',
       year: '2015',
     },
-    image: './images/snap3.png',
+    image: './images/todo.jpg',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
+      "To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. I used ES6 and Webpack!.",
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
-      link: 'https://example.com/',
+      link: 'https://tracy-miranja.github.io/TO-DO-LIST/dist/',
       text: 'See Live',
     },
     button1: {
-      link: 'https://example.com/',
+      link: 'https://github.com/Tracy-miranja/TO-DO-LIST',
       text: 'See Source',
     },
   },
