@@ -6,6 +6,46 @@ const modalData = [
       name: 'Back End Dev',
       year: '2015',
     },
+    image: './images/lead.jpg',
+    description:
+      "This is an app that i created to store all your scores and preserve it.",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
+    button: {
+      link: 'https://tracy-miranja.github.io/LEADERBOARD/dist/',
+      text: 'See Live',
+    },
+    button1: {
+      link: 'https://github.com/Tracy-miranja/LEADERBOARD',
+      text: 'See Source',
+    },
+  },
+  {
+    title: 'Tonic',
+    role: {
+      title: 'Canopy',
+      name: 'Back End Dev',
+      year: '2015',
+    },
+    image: './images/cpastone2.jpg',
+    description:
+      "This is a tech-music concert website, which I created as my first capstone, where people come to share tech ideas at the same time enjoying themselves with different type of songs from different artist",
+    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
+    button: {
+      link: 'https://tracy-miranja.github.io/HTML-CSS-JavaScript-capstone-project//',
+      text: 'See Live',
+    },
+    button1: {
+      link: 'https://github.com/Tracy-miranja/HTML-CSS-JavaScript-capstone-project',
+      text: 'See Source',
+    },
+  },
+  {
+    title: 'Tonic',
+    role: {
+      title: 'Canopy',
+      name: 'Back End Dev',
+      year: '2015',
+    },
     image: './images/awesomebook.jpg',
     description:
       "Awesome-book is a minimalist website website that allows users to add/remove books from a list, where I Used ES6 modules to write modular JavaScript and npm as software packages system.",
@@ -28,7 +68,7 @@ const modalData = [
     },
     image: './images/todo.jpg',
     description:
-      "To-do list is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. I used ES6 and Webpack!.",
+      "'To-do list' is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. I used ES6 and Webpack!",
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://tracy-miranja.github.io/TO-DO-LIST/dist/',
@@ -36,46 +76,6 @@ const modalData = [
     },
     button1: {
       link: 'https://github.com/Tracy-miranja/TO-DO-LIST',
-      text: 'See Source',
-    },
-  },
-  {
-    title: 'Tonic',
-    role: {
-      title: 'Canopy',
-      name: 'Back End Dev',
-      year: '2015',
-    },
-    image: './images/Snapshoot Portfolio (2).png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
-    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
-    button: {
-      link: 'https://example.com/',
-      text: 'See Live',
-    },
-    button1: {
-      link: 'https://example.com/',
-      text: 'See Source',
-    },
-  },
-  {
-    title: 'Tonic',
-    role: {
-      title: 'Canopy',
-      name: 'Back End Dev',
-      year: '2015',
-    },
-    image: './images/snap3.png',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem .",
-    tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
-    button: {
-      link: 'https://example.com/',
-      text: 'See Live',
-    },
-    button1: {
-      link: 'https://example.com/',
       text: 'See Source',
     },
   },
