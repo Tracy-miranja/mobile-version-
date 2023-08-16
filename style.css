@@ -43,11 +43,12 @@ body {
 
 .head {
   background-color: #fff;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  height: 8vh;
+  height: 5vh;
 }
 
 .nav__menu {
@@ -63,7 +64,7 @@ body {
   align-content: flex-start;
   align-items: flex-start;
   mix-blend-mode: multiply;
-  background: #6070ff;
+  /* background: #6070ff; */
 }
 
 .nav__item {
@@ -99,7 +100,7 @@ button a {
   left: 0;
   z-index: 2;
   border-bottom: #e5e5e5;
-  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+  box-shadow: 0 8px 16px rgba(31, 50, 221, 0.24);
 }
 
 article p {
@@ -108,7 +109,7 @@ article p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: #fff;
   margin: 0;
   padding-right: 10px;
 }
@@ -215,7 +216,7 @@ nav a:hover {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #050505;
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-position: 90% 20%;
@@ -236,7 +237,7 @@ article {
 
 article h1 {
   font-size: 40px;
-  color: #172b4d;
+  color: #fc6a08;
   font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -740,10 +741,13 @@ form {
   }
 
   .head {
-    padding: 0 5rem;
+    padding: 0 3rem;
     height: auto;
   }
 
+  .homebtn{
+   margin-top: 7px;
+  }
   .nav-mobile {
     display: none;
   }
@@ -1137,4 +1141,28 @@ form {
   .line {
     display: none;
   }
+
+  .scroll-down {
+    width: 1.3em;
+    margin-bottom: 1em;
+}
+}
+
+@media screen and (max-width: 479px){
+.scroll-down {
+    width: 3em;
+    margin-bottom: 2em;
+}
+}
+
+.scroll-down {
+  width: 2.83em;
+  margin-bottom: 0.6em;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
 }
