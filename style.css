@@ -93,6 +93,12 @@ button a {
   left: 0;
 }
 
+.ruby{
+  width: 55px;
+  height: 55px;
+
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -897,6 +903,12 @@ form {
     vertical-align: middle;
     display: inline-block;
     border: 0;
+  }
+
+  .ruby{
+    width: 55px;
+    height: 55px;
+
   }
 
   .item1a img {
