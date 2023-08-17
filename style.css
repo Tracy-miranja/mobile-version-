@@ -1173,3 +1173,39 @@ form {
   width: 2.83em;
   margin-bottom: 0.6em;
 }
+
+.frame, .skl {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.arrow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow2.down {
+  transform: rotate(90deg);
+}
+
+.arrow.down {
+  transform: rotate(90deg);
+}
+
+.list {
+  display: none;
+  padding-left: 20px;
+}
+
+/* .active .list {
+  display: block;
+} */
+
+.list.active {
+  display: block;
+}
+
