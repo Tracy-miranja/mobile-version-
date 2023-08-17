@@ -745,9 +745,10 @@ form {
     height: auto;
   }
 
-  .homebtn{
-   margin-top: 7px;
+  .homebtn {
+    margin-top: 7px;
   }
+
   .nav-mobile {
     display: none;
   }
@@ -856,14 +857,6 @@ form {
     padding-bottom: 10px;
   }
 
-  .item1a img {
-    width: 100%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin-top: 70px;
-  }
-
   .item2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -899,6 +892,13 @@ form {
     margin-left: 20px;
   }
 
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+  }
+
   .item1a img {
     width: 100%;
     flex: none;
@@ -906,7 +906,7 @@ form {
     flex-grow: 0;
     margin-top: 70px;
   }
-  
+
   .item2a img {
     width: 100%;
     flex: none;
@@ -939,6 +939,7 @@ form {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
+
     /* background: url(./images/snap3.png); */
     background-repeat: no-repeat;
     background-size: 90%;
@@ -960,6 +961,7 @@ form {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
+
     /* background: url(./images/Snapshoot\ Portfolio.png); */
     background-repeat: no-repeat;
     background-size: 90%;
@@ -1145,24 +1147,17 @@ form {
   .scroll-down {
     width: 1.3em;
     margin-bottom: 1em;
-}
+  }
 }
 
-@media screen and (max-width: 479px){
-.scroll-down {
+@media screen and (max-width: 479px) {
+  .scroll-down {
     width: 3em;
     margin-bottom: 2em;
-}
+  }
 }
 
 .scroll-down {
   width: 2.83em;
   margin-bottom: 0.6em;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-  border: 0;
 }
