@@ -32,3 +32,62 @@ const toggleList = (event) => {
 document.querySelectorAll('.frame, .skl').forEach((link) => {
   link.addEventListener('click', toggleList);
 });
+
+const text = "Hi, I'am Tracy, Glad to see,You!";
+const speed = 80;
+const typewriterText = document.getElementById('typewriter-text');
+const waveEmoji = document.getElementById('wave-emoji');
+
+let charIndex = 0;
+
+function typeWriter() {
+  if (charIndex < text.length) {
+    typewriterText.innerHTML += text.charAt(charIndex);
+    charIndex++;
+    setTimeout(typeWriter, speed);
+  } else {
+    // Show wave emoji after typing
+    waveEmoji.style.display = 'inline-block';
+  }
+}
+
+// Start typing animation when page loads
+window.onload = typeWriter;
+
+const walkingCartoon = document.getElementById('walking-cartoon');
+const projectSlide = document.getElementById('project-slide');
+const animationContainer = document.getElementById('animation-container');
+
+function startAnimations() {
+  walkingCartoon.style.display = 'block';
+  projectSlide.style.display = 'none';
+
+  walkingCartoon.style.animation = 'walkRight 5s linear infinite';
+  animationContainer.addEventListener('mouseenter', stopAnimations);
+}
+
+function stopAnimations() {
+  walkingCartoon.style.animationPlayState = 'paused';
+  walkingCartoon.style.display = 'none';
+  projectSlide.style.display = 'block';
+  projectSlide.style.animation = 'slideIn 1s ease-in-out forwards';
+}
+
+animationContainer.addEventListener('mouseleave', () => {
+  walkingCartoon.style.animationPlayState = 'running';
+  walkingCartoon.style.display = 'block';
+  projectSlide.style.display = 'none';
+  projectSlide.style.animation = '';
+});
+
+animationContainer.addEventListener('mouseenter', stopAnimations);
+
+animationContainer.addEventListener('click', () => {
+  walkingCartoon.style.animationPlayState = 'running';
+  walkingCartoon.style.display = 'block';
+  projectSlide.style.display = 'none';
+  projectSlide.style.animation = '';
+});
+
+startAnimations();
+

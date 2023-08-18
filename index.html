@@ -29,8 +29,8 @@
             <div class="bar"></div>
         </div>
           <ul class="nav__menu">
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">Portfolio</a>
+            <li class="nav__item ">
+              <a  href="#portfolio" class="nav__link">Portfolio</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
@@ -39,14 +39,17 @@
               <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
-        </header>
-      </header>
-
     </header>
     <section class="banner">
-      
+      <div class="part1">
       <article>
-        <h1>I’m Tracy<br />Glad to see,You!</h1>
+        <div class="Typewriter" data-testid="typewriter-wrapper">
+          <h1>
+            <span id="typewriter-text"></span>
+            <span class="wave-emoji" id="wave-emoji">👋</span>
+          </h1>
+        </div>
+        
         <p>
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work
@@ -55,7 +58,7 @@
         </p>
        
         <button class="btn homebtn"><a href="https://docs.google.com/document/d/1aXMYjeAs3U__e6XF4eN8zgODzgh-EW6dz7Zip4Ro4wg/edit?usp=sharing">Get my resume</a></button>
-        <a href="#" style="margin-left: 2px">LET’S CONNECT</a>
+        <a style="color:#fff" href="#" style="margin-left: 2px">LET’S CONNECT</a>
       </article>
       <div class="social-links">
         <ul>
@@ -66,21 +69,33 @@
             <a href="https://www.linkedin.com/in/tracy-miranja/"><i class="fa-brands fa-linkedin-in"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-m"></i></a>
+            <a href="https://medium.com/@barazatracy44"><i class="fa-solid fa-m"></i></a>
           </li>
           <li>
             <a href="https://github.com/Tracy-miranja"><i class="fa-brands fa-github"></i></a>
           </li>
-          <li>
-            <a href="#"><img src="./images/Vector (1).svg" alt="vector"/></a>
-          </li>
         </ul>
       </div>
-      <div class="hero-bottom flex-hor">
+    </div>
+    <div class="part2">
+      <div class="part3" id="animation-container">
+        <div class="walking-cartoon" id="walking-cartoon">
+          <img src="./images/portfolio.png" alt="Walking Cartoon">
+        </div>
+        <div class="project-slide" id="project-slide">
+          <img src="./images/snap2.png" alt="Project Mockup">
+        </div>
+        <div class="explore-button">
+          <a href="#portfolio" id="explore-link">Click Explore Projects</a>
+        </div>
+      </div>
+    </div>
+    
+      <!-- <div class="hero-bottom flex-hor">
         <a href="#portfolio" class="scroll-down-wrapper flex-vert w-inline-block"><img src="images/scroll-down.png" loading="lazy" alt="" class="scroll-down">
           <div class="subtitle">Scroll down</div>
         </a>
-      </div>
+      </div> -->
     </section>
     <section class="grid-container" id="portfolio">
       <div class="item1">
