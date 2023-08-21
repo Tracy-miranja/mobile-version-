@@ -18,6 +18,7 @@
   </head>
   <body>
     <div class="overlay"></div>
+    <!-- <div style="background-color: #D76F30; width: 100%; height: 1.9vh;" class="start"></div> -->
     <header class="head header">
       <div class="logo">
         <h2 class="log"><a class="log" href="#">TRACY </a></h2>
@@ -29,8 +30,8 @@
             <div class="bar"></div>
         </div>
           <ul class="nav__menu">
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">Portfolio</a>
+            <li class="nav__item ">
+              <a  href="#portfolio" class="nav__link">Portfolio</a>
             </li>
             <li class="nav__item">
               <a href="#about" class="nav__link">About</a>
@@ -39,14 +40,18 @@
               <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
-        </header>
-      </header>
-
     </header>
     <section class="banner">
-      
+      <div class="glass-container">
+      <div class="part1">
       <article>
-        <h1>I’m Tracy<br />Glad to see,You!</h1>
+        <div class="Typewriter" data-testid="typewriter-wrapper">
+          <h1>
+            <span id="typewriter-text"></span>
+            <span class="wave-emoji" id="wave-emoji">👋</span>
+          </h1>
+        </div>
+        
         <p>
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work
@@ -55,7 +60,7 @@
         </p>
        
         <button class="btn homebtn"><a href="https://docs.google.com/document/d/1aXMYjeAs3U__e6XF4eN8zgODzgh-EW6dz7Zip4Ro4wg/edit?usp=sharing">Get my resume</a></button>
-        <a href="#" style="margin-left: 2px">LET’S CONNECT</a>
+        <a style="color:#fff" href="#" style="margin-left: 2px">LET’S CONNECT</a>
       </article>
       <div class="social-links">
         <ul>
@@ -66,29 +71,42 @@
             <a href="https://www.linkedin.com/in/tracy-miranja/"><i class="fa-brands fa-linkedin-in"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-m"></i></a>
+            <a href="https://medium.com/@barazatracy44"><i class="fa-solid fa-m"></i></a>
           </li>
           <li>
             <a href="https://github.com/Tracy-miranja"><i class="fa-brands fa-github"></i></a>
           </li>
-          <li>
-            <a href="#"><img src="./images/Vector (1).svg" alt="vector"/></a>
-          </li>
         </ul>
       </div>
-      <div class="hero-bottom flex-hor">
+    </div>
+    <div class="part2">
+      <div class="part3" id="animation-container">
+        <div class="walking-cartoon" id="walking-cartoon">
+          <img src="./images/portfolio.png" alt="Walking Cartoon">
+        </div>
+        <div class="project-slide" id="project-slide">
+          <img src="./images/snap2.png" alt="Project Mockup">
+        </div>
+        <div class="explore-button">
+          <a href="#portfolio" id="explore-link">Click Explore Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!-- <div class="hero-bottom flex-hor">
         <a href="#portfolio" class="scroll-down-wrapper flex-vert w-inline-block"><img src="images/scroll-down.png" loading="lazy" alt="" class="scroll-down">
           <div class="subtitle">Scroll down</div>
         </a>
-      </div>
+      </div> -->
     </section>
     <section class="grid-container" id="portfolio">
       <div class="item1">
         <div class="item1a">
-          <img src="./images/lead.jpg" alt="snap" />
+          <img src="./images/doctor-app.jpg" alt="snap" />
         </div>
         <div class="item1b">
-          <h1>LEADERBOARD</h1>
+          <h1>DOCTOR APPOINTMENT</h1>
           <div class="frame2">
             <span style="font-size: 18px; font-weight: 500; color: #344563;">CANOPY</span>
             <ul class="role">
@@ -97,13 +115,13 @@
             </ul>
           </div>
           <p>
-            This is an app that i created to store all your scores and preserve it.
+            The Appoint Doctor Project is a user-friendly web app for booking doctor appointments. It offers secure login using Devise-jwt and supports multiple user roles (patient, doctor, admin). Admins can add/delete doctors. Users can schedule/cancel appointments and view their appointment list. The app simplifies the process of finding and managing medical appointments online.
           </p>
           <div class="tags">
             <ul>
-              <li>html</li>
+              <li>Ruby on rails</li>
               <li>css</li>
-              <li>javaScript</li>
+              <li>React</li>
             </ul>
             <button id="button1" data-index="0">See Project</button>
           </div>
@@ -113,7 +131,7 @@
       </div>
       <div class="item2">
         <div class="item2a">
-          <img src="./images/cpastone2.jpg" alt="snap2" />
+          <img src="./images/concert2.jpg" alt="snap2" />
         </div>
         <div class="item1b">
           <h1>TECH-CONCERT</h1>
@@ -163,7 +181,7 @@
       </div>
       <div class="item4">
         <div class="item4a">
-          <img src="./images/todo.jpg" alt="tracy" />
+          <img src="./images/todo-list.jpg" alt="tracy" />
         </div>
         <div class="item1b">
           <h1>TO DO LIST</h1>
