@@ -33,7 +33,7 @@ document.querySelectorAll('.frame, .skl').forEach((link) => {
   link.addEventListener('click', toggleList);
 });
 
-const text = "Hi, I'am Tracy, Glad to see,You!";
+const text = "Hi, I'am Tracy, Glad to see You!";
 const speed = 80;
 const typewriterText = document.getElementById('typewriter-text');
 const waveEmoji = document.getElementById('wave-emoji');

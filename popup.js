@@ -8,14 +8,14 @@ const modalData = [
     },
     image: './images/lead.jpg',
     description:
-      "This is an app that i created to store all your scores and preserve it.",
+      ' The Appoint Doctor Project is a user-friendly web app for booking doctor appointments. It offers secure login using Devise-jwt and supports multiple user roles (patient, doctor, admin). Admins can add/delete doctors. Users can schedule/cancel appointments and view their appointment list. The app simplifies the process of finding and managing medical appointments online.',
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
-      link: 'https://tracy-miranja.github.io/LEADERBOARD/dist/',
+      link: 'profound-heliotrope-436869.netlify.app/',
       text: 'See Live',
     },
     button1: {
-      link: 'https://github.com/Tracy-miranja/LEADERBOARD',
+      link: 'https://github.com/Tracy-miranja/appoint-doctor-frontend',
       text: 'See Source',
     },
   },
@@ -28,7 +28,7 @@ const modalData = [
     },
     image: './images/cpastone2.jpg',
     description:
-      "This is a tech-music concert website, which I created as my first capstone, where people come to share tech ideas at the same time enjoying themselves with different type of songs from different artist",
+      'This is a tech-music concert website, which I created as my first capstone, where people come to share tech ideas at the same time enjoying themselves with different type of songs from different artist',
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://tracy-miranja.github.io/HTML-CSS-JavaScript-capstone-project//',
@@ -48,7 +48,7 @@ const modalData = [
     },
     image: './images/awesomebook.jpg',
     description:
-      "Awesome-book is a minimalist website website that allows users to add/remove books from a list, where I Used ES6 modules to write modular JavaScript and npm as software packages system.",
+      'Awesome-book is a minimalist website website that allows users to add/remove books from a list, where I Used ES6 modules to write modular JavaScript and npm as software packages system.',
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
       link: 'https://tracy-miranja.github.io/AWESOMEBOOK/',

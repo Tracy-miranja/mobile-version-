@@ -1021,7 +1021,7 @@ form {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: 70px;
+    margin-top: 40px;
   }
 
   .item2a img {
@@ -1029,7 +1029,7 @@ form {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: 70px;
+    margin-top: 10px;
   }
 
   .item2a {
@@ -1049,7 +1049,7 @@ form {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-top: 70px;
+    /* margin-top: 50px; */
   }
 
   .item4a {
