@@ -863,7 +863,7 @@ form {
     height: 100vh;
     padding-left: 50px;
     padding-right: 80px;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .part2 {
@@ -880,7 +880,6 @@ form {
     border-radius: 15px;
     height: 70vh;
     position: relative;
-    width: ;
     margin-top: 40px;
     margin-right: 20px;
     margin-left: 20px;
@@ -901,7 +900,7 @@ form {
   }
 
   .project-slide {
-    display: none;
+    /* display: none; */
     text-align: center;
     margin-top: 20px;
   }
