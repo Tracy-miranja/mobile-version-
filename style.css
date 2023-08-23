@@ -576,7 +576,7 @@ article h1 {
 }
 
 .footer {
-  background: #172d13;
+  background: #026C69;
   border-top-left-radius: 100px;
   display: flex;
   flex-direction: column;
@@ -771,6 +771,7 @@ form {
     background: none;
     justify-content: flex-end;
     border-bottom: none;
+    height: 1vh;
   }
 
   article a {
@@ -1065,6 +1066,7 @@ form {
     flex: none;
     order: 0;
     flex-grow: 0;
+    display: none;
 
     /* margin-top: 50px; */
   }
@@ -1073,7 +1075,7 @@ form {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-    /* background: url(./images/snap3.png); */
+    background: url(./images/R.jpg);
     background-repeat: no-repeat;
     background-size: 90%;
     border-radius: 8px;
