@@ -60,33 +60,35 @@ const projectSlide = document.getElementById('project-slide');
 const animationContainer = document.getElementById('animation-container');
 
 function startAnimations() {
-  // Initial setup when animations start
   walkingCartoon.style.display = 'block';
   projectSlide.style.display = 'none';
-  // Start the walking animation
+
   walkingCartoon.style.animation = 'walkRight 5s linear infinite';
-  // Add an event listener for when the mouse enters the container
+  // eslint-disable-next-line no-use-before-define
   animationContainer.addEventListener('mouseenter', stopAnimations);
 }
 
 function stopAnimations() {
-  // Pause the walking animation and show the project slide
   walkingCartoon.style.animationPlayState = 'paused';
   walkingCartoon.style.display = 'none';
   projectSlide.style.display = 'block';
   projectSlide.style.animation = 'slideIn 1s ease-in-out forwards';
-  // Add an event listener for when the mouse leaves the container
-  animationContainer.addEventListener('mouseleave', resumeAnimations);
 }
 
-function resumeAnimations() {
-  // Resume the walking animation and hide the project slide
+animationContainer.addEventListener('mouseleave', () => {
   walkingCartoon.style.animationPlayState = 'running';
   walkingCartoon.style.display = 'block';
   projectSlide.style.display = 'none';
   projectSlide.style.animation = '';
-  // Add an event listener for when the mouse enters the container again
-  animationContainer.addEventListener('mouseenter', stopAnimations);
-}
+});
+
+animationContainer.addEventListener('mouseenter', stopAnimations);
+
+animationContainer.addEventListener('click', () => {
+  walkingCartoon.style.animationPlayState = 'running';
+  walkingCartoon.style.display = 'block';
+  projectSlide.style.display = 'none';
+  projectSlide.style.animation = '';
+});
 
 startAnimations();
