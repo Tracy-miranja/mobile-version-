@@ -273,15 +273,8 @@ nav a:hover {
   height: 80vh;
   padding-top: 20px;
   padding-right: 20px;
-
-  /* flex-direction: column; */
-
-  /* align-items: center;
-  justify-content: center; */
   background-color: rgba(255, 255, 255, 0.2); /* Adjust opacity as needed */
   backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
-
-  /* margin: 20px;  */
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   color: #fff;
@@ -591,7 +584,6 @@ article h1 {
   justify-content: center;
   height: auto;
   margin-top: 10%;
-
   /* background-image: url(./images/contact\ form\ shapes-mobile@2x.png); */
   background-repeat: no-repeat;
   background-size: contain;
@@ -855,7 +847,6 @@ form {
   .banner {
     display: flex;
     flex-direction: row;
-
     /* background-image: url(./images/Header\ bg.svg); */
     background-position: 0 0;
     background-size: 100%;
@@ -1082,7 +1073,6 @@ form {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-
     /* background: url(./images/snap3.png); */
     background-repeat: no-repeat;
     background-size: 90%;
@@ -1104,7 +1094,6 @@ form {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-
     /* background: url(./images/Snapshoot\ Portfolio.png); */
     background-repeat: no-repeat;
     background-size: 90%;
@@ -1244,7 +1233,6 @@ form {
     padding-right: 319px;
     padding-bottom: 127px;
     padding-top: 142px;
-
     /* background-image: url(./images/contact\ form\ background\ shapes@2x.png); */
     background-position: center;
     background-repeat: no-repeat;
@@ -1339,7 +1327,7 @@ form {
   display: block;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .part2 {
     display: none;
   }
