@@ -46,12 +46,12 @@ const modalData = [
       name: 'Back End Dev',
       year: '2015',
     },
-    image: './images/awesomebook.jpg',
+    image: './images/app mockup.jpg',
     description:
-      'Awesome-book is a minimalist website website that allows users to add/remove books from a list, where I Used ES6 modules to write modular JavaScript and npm as software packages system.',
+      'Is a Ruby on Rails capstone project about a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
-      link: 'https://tracy-miranja.github.io/AWESOMEBOOK/',
+      link: 'https://tracy-bsfz.onrender.com/',
       text: 'See Live',
     },
     button1: {

@@ -267,8 +267,8 @@ nav a:hover {
 }
 
 .glass-container {
-  /* flex: 1; */
-  width: 100%;
+  flex: 1;
+  width: 70%;
   display: flex;
   height: 80vh;
   padding-top: 20px;
@@ -1101,18 +1101,21 @@ form {
     order: 0;
     flex-grow: 0;
     margin-top: 70px;
+    display: none;
   }
 
   .item3a {
     flex-grow: 0;
     width: 35vw;
     height: 50vh;
-    /* background: url(./images/Snapshoot\ Portfolio.png); */
+    background: url(./images/app\ mockup.jpg);
     background-repeat: no-repeat;
     background-size: 90%;
     border-radius: 8px;
     box-sizing: border-box;
     margin-left: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
   }
 
   .grid-container2 {
