@@ -6,12 +6,12 @@ const modalData = [
       name: 'Back End Dev',
       year: '2015',
     },
-    image: './images/lead.jpg',
+    image: './images/doctor-app.jpg',
     description:
       ' The Appoint Doctor Project is a user-friendly web app for booking doctor appointments. It offers secure login using Devise-jwt and supports multiple user roles (patient, doctor, admin). Admins can add/delete doctors. Users can schedule/cancel appointments and view their appointment list. The app simplifies the process of finding and managing medical appointments online.',
     tech: ['HTML', 'CSS', 'Javascript', 'ruby', 'Bootstraps'],
     button: {
-      link: 'profound-heliotrope-436869.netlify.app/',
+      link: 'https://doctor-appointment-x59j.onrender.com/',
       text: 'See Live',
     },
     button1: {
