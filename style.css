@@ -774,6 +774,14 @@ form {
     height: 1vh;
   }
 
+  #portfolio .nav__item a{
+    color: black;
+  }
+
+  body:not(.white-background):not(.grey-background) .nav__item a{
+    color: white; 
+  }
+
   article a {
     font-family: 'Poppins' Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
@@ -863,7 +871,10 @@ form {
     height: 65vh;
     width: 55%;
     border-radius: 15px;
+    margin-right: 20px;
   }
+
+
 
   .part3 {
     background-color: #d76f30;
@@ -936,7 +947,7 @@ form {
     justify-content: center;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 90px;
+    margin-left: 10px;
     flex-wrap: wrap;
   }
 
@@ -960,7 +971,7 @@ form {
   }
 
   .social-links {
-    margin-left: 90px;
+    margin-left: 15px;
     padding-right: 100px;
     padding-left: 10px;
   }
