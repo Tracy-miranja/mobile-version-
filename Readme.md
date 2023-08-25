@@ -38,6 +38,7 @@ One attachment
   <ul>
     <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
  
@@ -132,7 +133,7 @@ If the project was great as your view, don't hesitate to share and give it a sta
  
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
  
-I would like to thank to all my Mricronauts partners and microverse for giving me this template in figma
+I would like to thank to all my Mricronauts partners and microverse for the support.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
@@ -140,30 +141,8 @@ I would like to thank to all my Mricronauts partners and microverse for giving m
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-license-1/LICENCE licensed.
+This project is [MIT](https://github.com/Tracy-miranja/mobile-version-/blob/add-license-1/LICENCE licensed.)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-README.md
-Displaying README.md.
-/*
-const modalData = [
-  {
-    title: "This a sample H1 tag",
-    image: "https://via.placeholder.com/150",
-    paragraph: "This is paragraph 1.",
-    info: "This is some page info that's inside a DIV element",
-    btn: "Shop now!"
-  },
-  {
-    title: "Title 2",
-    image: "https://via.placeholder.com/150",
-    paragraph: "This is paragraph 2.",
-  },
-  {
-    title: "Title 3",
-    image: "https://via.placeholder.com/150",
-    paragraph: "This is paragraph 3.",
-  },
-];
 
-const buttons = document.query
+
