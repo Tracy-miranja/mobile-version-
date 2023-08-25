@@ -293,10 +293,11 @@ article {
 article h1 {
   font-size: 40px;
   color: #fff;
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins' SemiBold;
   font-style: normal;
   font-weight: 700;
   padding-right: 10px;
+  line-height: 65px;
   margin: 0;
 }
 
@@ -968,6 +969,8 @@ form {
     font-weight: 400;
     font-size: 20px;
     flex-wrap: wrap;
+    line-height: 22px;
+    margin-bottom: 18px;
   }
 
   .social-links {
